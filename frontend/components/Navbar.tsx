@@ -57,9 +57,9 @@ export default function Navbar() {
             </div>
               <div className="flex flex-col">
                 <div className="flex items-center gap-1.5">
-                  <span className="text-sm font-semibold tracking-tight text-slate-100">ProcureAI</span>
+                  <span className="text-sm font-semibold tracking-tight text-slate-100">BuyLogic</span>
                   <span className="text-[10px] font-medium uppercase tracking-wider px-1.5 py-0.5 rounded bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
-                    Agent
+                    AI
                   </span>
                 </div>
                 <span className="text-[10px] text-slate-400 -mt-0.5">Purchasing Decision Platform</span>

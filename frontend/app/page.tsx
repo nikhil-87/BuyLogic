@@ -80,10 +80,10 @@ export default function DashboardPage() {
         <div className="relative z-10 max-w-3xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-medium mb-3">
             <Sparkles className="h-3.5 w-3.5" />
-            <span>Retail & Quick-Commerce Procurement Assistant</span>
+            <span>BuyLogic Procurement Intelligence</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mb-2 leading-tight">
-            AI Purchasing Agent Dashboard
+            BuyLogic AI Purchasing Agent
           </h1>
           <p className="text-sm sm:text-base text-slate-400 leading-relaxed mb-6">
             Investigate inventory levels, supplier capacity, demand changes, and warehouse constraints to review, modify, or execute purchasing decisions.

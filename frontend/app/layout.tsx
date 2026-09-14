@@ -3,8 +3,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "AI Purchasing Agent | Procurement Assistant",
-  description: "Full-stack purchasing assistant evaluating inventory, demand anomalies, supplier constraints, and budgets.",
+  title: "BuyLogic | AI Purchasing Agent",
+  description: "BuyLogic — Full-stack purchasing assistant evaluating inventory, demand anomalies, supplier constraints, and budgets.",
 };
 
 export default function RootLayout({

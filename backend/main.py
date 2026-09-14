@@ -17,8 +17,8 @@ async def lifespan(app: FastAPI):
     yield
 
 app = FastAPI(
-    title="AI Purchasing Agent API",
-    description="Autonomous AI Purchasing Agent for retail & quick-commerce supply chain orchestration.",
+    title="BuyLogic API",
+    description="BuyLogic — AI Purchasing Agent for retail & quick-commerce supply chain orchestration.",
     version="1.0.0",
     lifespan=lifespan
 )
@@ -40,7 +40,7 @@ app.include_router(evaluation.router)
 @app.get("/")
 async def root():
     return {
-        "service": "AI Purchasing Agent API",
+        "service": "BuyLogic API",
         "status": "operational",
         "version": "1.0.0",
         "docs": "/docs",

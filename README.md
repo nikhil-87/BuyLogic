@@ -1,6 +1,6 @@
-# AI Purchasing Agent — Full-Stack Implementation
+# BuyLogic — AI Purchasing Agent
 
-This repository contains an end-to-end full-stack AI Purchasing Agent built to assist retail and quick-commerce buyers in evaluating purchasing recommendations, handling supplier disruptions, responding to demand surges, and resolving multi-constraint procurement bottlenecks.
+**BuyLogic** is an end-to-end full-stack AI Purchasing Agent built to assist retail and quick-commerce buyers in evaluating purchasing recommendations, handling supplier disruptions, responding to demand surges, and resolving multi-constraint procurement bottlenecks.
 
 ---
 
