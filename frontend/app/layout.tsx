@@ -3,8 +3,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "NEXUS | Autonomous AI Purchasing Agent",
-  description: "Enterprise quick-commerce and retail autonomous procurement decision platform.",
+  title: "AI Purchasing Agent | Procurement Assistant",
+  description: "Full-stack purchasing assistant evaluating inventory, demand anomalies, supplier constraints, and budgets.",
 };
 
 export default function RootLayout({

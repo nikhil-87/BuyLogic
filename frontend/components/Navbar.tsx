@@ -55,15 +55,15 @@ export default function Navbar() {
               <Bot className="h-4 w-4" />
               <div className="absolute -top-1 -right-1 h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
             </div>
-            <div className="flex flex-col">
-              <div className="flex items-center gap-1.5">
-                <span className="text-sm font-semibold tracking-tight text-slate-100">NEXUS</span>
-                <span className="text-[10px] font-medium uppercase tracking-wider px-1.5 py-0.5 rounded bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
-                  Agent
-                </span>
+              <div className="flex flex-col">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-sm font-semibold tracking-tight text-slate-100">ProcureAI</span>
+                  <span className="text-[10px] font-medium uppercase tracking-wider px-1.5 py-0.5 rounded bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+                    Agent
+                  </span>
+                </div>
+                <span className="text-[10px] text-slate-400 -mt-0.5">Purchasing Decision Platform</span>
               </div>
-              <span className="text-[10px] text-slate-400 -mt-0.5">Autonomous Supply Chain</span>
-            </div>
           </Link>
         </div>
 
@@ -93,7 +93,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <div className="hidden md:flex items-center gap-1.5 text-[11px] text-slate-400 px-2.5 py-1 rounded-full bg-slate-900 border border-slate-800">
             <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            <span>Autonomous Engine: Active</span>
+            <span>Engine Status: Connected</span>
           </div>
 
           <button
