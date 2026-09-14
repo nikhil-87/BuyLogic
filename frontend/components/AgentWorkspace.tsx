@@ -9,6 +9,7 @@ import {
 } from "@/types";
 import { api } from "@/lib/api";
 import ConstraintMatrix from "./ConstraintMatrix";
+import MarkdownRenderer from "./MarkdownRenderer";
 import {
   Play,
   Sparkles,
@@ -458,11 +459,11 @@ export default function AgentWorkspace({ scenario, onRefresh }: AgentWorkspacePr
 
           {/* Markdown Reasoning Body */}
           <div className="py-5 border-b border-slate-800">
-            <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-400 block mb-2">
+            <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-400 block mb-2.5">
               Decision Analysis & Trade-Off Evidence
             </span>
-            <div className="text-xs leading-relaxed text-slate-300 space-y-2 whitespace-pre-line bg-slate-950/40 p-4 rounded-xl border border-slate-800/60">
-              {currentDecision.reasoning}
+            <div className="bg-slate-950/60 p-4 rounded-xl border border-slate-800/80 shadow-inner">
+              <MarkdownRenderer content={currentDecision.reasoning} />
             </div>
           </div>
 
